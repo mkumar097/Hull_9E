@@ -1,0 +1,7 @@
+Chapter 1 - Introduction
+
+1.1. What is the difference between a long forward position and a short forward position?
+
+1.2. Explain carefully the difference between hedging, speculation, and arbitrage.
+
+1.3. What is the difference between entering into a long forward contract when the forward price is $50 and taking a long position in a call option with a strike price of $50?
