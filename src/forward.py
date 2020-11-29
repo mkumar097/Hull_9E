@@ -17,8 +17,9 @@ def forward_price(risk_free_rate: float = None,
                   known_income: float = 0.0,
                   known_yield: float = 0.0) -> float:
 
-    return (current_price - known_income) * math.exp((risk_free_rate - known_yield)
-                                                     * time_to_maturity)
+    return (current_price - known_income) * math.exp((risk_free_rate -
+                                                      known_yield) *
+                                                     time_to_maturity)
 
 
 def forward_value(delivery_price: float = None,
