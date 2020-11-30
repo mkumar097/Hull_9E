@@ -163,3 +163,46 @@ forward contract and (b) an option.
 a) Long a forward contract to purchase 1 million CAD in 6 months at a locked-in
 exchange rate.
 b) Buy a foreign exchange call option.
+
+1.19 A trader enters into a short forward contract on 100 million yen. The
+forward exchange rate is $0.0080 per yen. How much does the trader gain or lose
+if the exchange rate at the end of the contract is (a) $0.0074 per yen and
+(b) $0.0091 per yen?
+
+Given the exchange rate, the trader will sell 100 million yen for 800,000
+unknown currency
+a) Trader profits $60,000 by entering into the forward contract.
+b) Trader loses a potential $110,000 by entering into the contract.
+
+1.20 The Chicago board of trade offers a futures contract on long-term Treasury
+bonds. Characterize the traders likely to use this contract.
+
+Prices of bonds are negatively correlated with interest rates. A trader who
+thinks interest rates are going down may enter into a long futures contract on
+long-term treasury bonds. A trader who thinks interest rates are going to go
+up may enter into a short futures contract on long-term treasury bonds.
+
+1.21 Options and futures are zero-sum games. What do you think is meant by this
+statement?
+
+If you make money on a futures contract, the party on the other side loses the
+same amount of money. Same applies to options.
+
+1.22 Describe the profit from the following portfolio: a long forward contract
+on an asset and a long European put option on the asset with the same maturity
+as the forward contract and a strike price that is equal to the forward price
+of the asset at the time the portfolio is set up.
+
+Long forward contracts are profitable if the asset price moves above the
+forward price, but a long put will expire worthless. Long forward contracts
+will result in a loss if the asset price moves below the forward price.
+
+1.23 On July 1, 2008, a company enters into a forward contract to buy 10
+million Japanese yen on January 1, 2009. On September 1, 2008, it enters
+into a forward contract to sell 10 million Japanese yen on January 1, 2009.
+Describe the payoff from this strategy.
+
+The agreed upon exchange rate in the first forward contract is less than the
+exchange rate in the second forward contract, the company has locked in a
+profit of (10,000,000 * (E2-E1)).
+
