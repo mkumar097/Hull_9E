@@ -1,7 +1,7 @@
 Chapter 1 - Introduction
 
 1.1. What is the difference between a long forward position and a short forward
- position?
+position?
 
 A short forward position is an obligation to provide the underlying asset on
 the agreed upon date. A long forward position is obligation to purchase the
@@ -28,7 +28,7 @@ Depending on the option type (European or American), you may exercise this
 option before the expiration date.
 
 1.4 Explain carefully the difference between selling a call option and buying a
- put option.
+put option.
 
 When selling a call option, you are obligated to provide the buyer of the
 option with 100 units of the underlying asset if they decide to exercise
@@ -40,13 +40,50 @@ pounds for US dollars at an exchange rate of 1.9000 US dollars per pound. How
 much does the investor gain or lose if the exchange rate at the end of the
 contract is (a) 1.8900 and (b) 1.9200?
 
-a) 100,000 * (1.9 - 1.89) = 1,000
-b) 100,000 * (1.9 - 1.92) = -2,000
+a) 100,000 * (1.9-1.89) = 1,000
+b) 100,000 * (1.9-1.92) = -2,000
 
 1.6 A trader enters into a short cotton futures contract when the futures price
- is 50 cents per pound. The contract is for the delivery of 50,000 pounds. How
- much does the trader gain or lose if the cotton price at the end of the
- contract is (a) 48.20 cents per pound and (b) 51.30 cents per pound?
+is 50 cents per pound. The contract is for the delivery of 50,000 pounds. How
+much does the trader gain or lose if the cotton price at the end of the
+contract is (a) 48.20 cents per pound and (b) 51.30 cents per pound?
 
-a) 500,000 * (0.5 - 0.482) = 900
-b) 500,000 * (0.5 - 0.513) = -650
+a) 500,000 * (0.5-0.482) = 900
+b) 500,000 * (0.5-0.513) = -650
+
+1.7 Suppose that you write a put contract with a strike price of $40 and an
+expiration date in 3 months. The current stock price is $41 and the contract is
+on 100 shares. What have you committed yourself to? How much could you gain or
+lose?
+
+You are committed to buying 100 shares of the stock at a price of $40 per
+share. Maximum profit is achieved if the option is never exercised and you get
+to keep the option premium. Maximum loss is achieved if the stock price goes to
+$0 and the option is exercised; you are then down $4,000.
+
+1.8 What is the difference between the over-the-counter market and the
+exchange-traded market? What are the big and offer quotes or a market maker in
+the over-the-counter market?
+
+Over-the-counter market trades are made between financial institutions, or
+between a financial institution and their client. Terms of the trades made in
+the over-the-counter market can be customized to whatever suits both parties.
+Exchange traded market the contracts are standardized and the market
+participants are unknown.
+
+1.9 You would like to speculate on a rise in the price of a certain stock. The
+current stock price is $29 and a 3-month call with a strike price of $30 costs
+$2.90. You have $5,800 to invest. Identify two alternative investment
+strategies, one in the stock and the other in an option on the stock. What are
+the potential gains and losses from each?
+
+Option 1: Invest $5,800 into the stock you can purchase 200 shares. Potential
+gain/loss is 200 * (S2-S1) where S2 is the price of stock at a given time after
+purchase and S1 is the price of stock at purchase.
+Option 2: Invest $5,800 into 3-month call options with a strike of $30, you can
+purchase 20 contracts. Potential gain is 2,000 * (S2-$30) if S2 > $30.
+Potential loss is $5800 if S2 < $30 at expiration.
+
+1.10 Suppose that you own 5,000 shares worth $25 each. How can put options be
+used to provide you with insurance against a decline in the value of your
+holding over the next 4 months?
