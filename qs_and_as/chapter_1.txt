@@ -14,8 +14,8 @@ Hedging reduces or eliminates risk. This can be accomplished using derivatives
 like options, forwards, or futures.
 Speculation tries to obtain a profit by predicting the up or down movement of
 the market.
-Arbitrage identifies price discrepencies of the same product in two different
-markets and exploits this discrepency to lock in a profit
+Arbitrage identifies price discrepancies of the same product in two different
+markets and exploits this discrepancy to lock in a profit
 
 1.3. What is the difference between entering into a long forward contract when
 the forward price is $50 and taking a long position in a call option with a
@@ -82,8 +82,55 @@ gain/loss is 200 * (S2-S1) where S2 is the price of stock at a given time after
 purchase and S1 is the price of stock at purchase.
 Option 2: Invest $5,800 into 3-month call options with a strike of $30, you can
 purchase 20 contracts. Potential gain is 2,000 * (S2-$30) if S2 > $30.
-Potential loss is $5800 if S2 < $30 at expiration.
+Potential loss is $5,800 if S2 < $30 at expiration.
 
 1.10 Suppose that you own 5,000 shares worth $25 each. How can put options be
 used to provide you with insurance against a decline in the value of your
 holding over the next 4 months?
+
+By purchasing 50 put contracts with a strike price of $25 and an expiration in
+4 months, you gain the right to sell your 5,000 shares for $25 per share. This
+means that even if the price of the stock drops, you are protected.
+
+1.11 When first issued, a stock provides funds for a company. Is the same true
+of a stock option? Discuss.
+
+Stock options are agreements between parties and do not provide funds for the
+company. When a company issues new stock they are selling a part of the company
+to investors. Funds are generated with a stock issue.
+
+1.12 Explain why a forward contract can be used for either speculation or
+hedging.
+
+An example of using a forward contract for speculation would be to enter a long
+forward position to buy an asset at a certain price. If the market price of the
+asset increases by the delivery date, you will be able to sell each unit of
+the asset for a profit after the delivery. An example of using a forward
+contract for hedging would be to enter a short forward position at a price,
+and if the market price of that asset falls, you will be unaffected because you
+have already agreed to sell the asset at a price without enduring a loss.
+
+1.13 Suppose that a March call option to buy a share for $50 costs $2.50 and is
+held until March. Under what circumstances will the holder of the option make a
+profit? Under what circumstance will the option be exercised? Draw a diagram
+illustrating how the profit from a long position in the option depends on the
+stock price at maturity of the option.
+
+The holder of the option will make a profit if the price of the stock is above
+$52.50 on the expiration date in March. The option will be exercised only if
+the stock price is above $50 on the expiration date.
+
+1.14 Suppose that a June put option to sell a share for $60 costs $4 and is
+held until June. Under what circumstances will the seller of the option
+(i.e. the party with the short position) make a profit? Under what
+circumstances will the option be exercised? Draw a diagram illustrating how the
+profit from a short position in the option depends on the stock pricer at
+maturity of the option.
+
+Seller of the put option would make a profit if the market price of the share
+on the expiration date in June is higher than $56. If the market price is
+higher than $60 at expiration, the buyer of the put would not exercise the
+option because they could sell the 100 shares in the market for a better price.
+Seller of the put would keep the entire $400 option premium that was paid to
+them. Option will be exercised if the market price of the stock is below $60 at
+expiration.
