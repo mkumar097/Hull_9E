@@ -2,6 +2,14 @@ Chapter 1 - Introduction
 
 1.1. What is the difference between a long forward position and a short forward position?
 
+A short forward position is an obligation to provide the underlying asset on the agreed upon date. A long forward position is obligation to purchase the underlying asset on the agreed upon date.
+
 1.2. Explain carefully the difference between hedging, speculation, and arbitrage.
 
+Hedging reduces or eliminates risk. This can be accomplished using derivatives like options, forwards, or futures.
+Speculation tries to obtain a profit by predicting the up or down movement of the market.
+Arbitrage identifies price discrepencies of the same product in two diffent markets and exploits this discrepency to lock in a profit
+
 1.3. What is the difference between entering into a long forward contract when the forward price is $50 and taking a long position in a call option with a strike price of $50?
+
+Long forward contracts are an obligation to purchase the underlying asset for $50 per unit on an agreed upon date. Long call options give you the right (but you are not obligated) to purchase the underlying asset for $50 per unit. Depending on the option type (European or American), you may be able to  exercise this option before the expiration date.
