@@ -134,3 +134,32 @@ option because they could sell the 100 shares in the market for a better price.
 Seller of the put would keep the entire $400 option premium that was paid to
 them. Option will be exercised if the market price of the stock is below $60 at
 expiration.
+
+1.15 It is May and a trader writes a September call option with a strike price
+of $20. The stock price is $18 and the option price is $2. Describe the trader's
+cash flows if the option is held until September and the stock price is $25 at
+that time.
+
+The trader receives $200 for writing the call. The trader will purchase 100
+shares of the stock at $25 and then sell it at $20. This results in a loss of
+$500 with a net loss of $300 after subtracting the initial cost of the call.
+
+1.16 A trader writes a December put option with a strike price of $30. The price
+of the option is $4. Under what circumstances does the make a gain?
+
+The trader initially makes $400 for writing the put option. The premium begins
+to disappear as soon as the stock price goes below $30. Once the stock price
+goes below $26, the trader begins to lose money.
+
+1.17 A company knows that it is due to receive a certain amount of a foreign
+currency in 4 months. What type of option contract is appropriate for hedging?
+
+Purchase a foreign exchange option or short a foreign exchange future.
+
+1.18 A United States company expects to have to pay 1 million Canadian dollars
+in 6 months. Explain how the exchange rate risk can be hedged using (a) a
+forward contract and (b) an option.
+
+a) Long a forward contract to purchase 1 million CAD in 6 months at a locked-in
+exchange rate.
+b) Buy a foreign exchange call option.
