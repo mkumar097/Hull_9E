@@ -1,38 +1,53 @@
-def long_call(current: float = None,
-              strike: float = None,
-              option_price: float = None) -> float:
 
-    if current > strike:
-        return current - strike - option_price
-    else:
-        return -option_price
+class Options:
 
+    def __init__(self, current: float = None, strike: float = None,
+                 option_price: float = None):
 
-def long_put(current: float = None,
-             strike: float = None,
-             option_price: float = None) -> float:
+        self._current = current
+        self._strike = strike
+        self._option_price = option_price
 
-    if strike > current:
-        return strike - current - option_price
-    else:
-        return -option_price
+        @property
+        def current(self):
+            return self._current
 
+        @property
+        def strike(self):
+            return self._strike
 
-def short_call(current: float = None,
-               strike: float = None,
-               option_price: float = None) -> float:
+        @property
+        def option_price(self):
+            return self._option_price
 
-    if strike > current:
-        return option_price
-    else:
-        return strike - current + option_price
+        @property
+        def long_call(self) -> float:
 
+            if self._current > self._strike:
+                return self._current - self._strike - self._option_price
+            else:
+                return -self._option_price
 
-def short_put(current: float = None,
-              strike: float = None,
-              option_price: float = None) -> float:
+        @property
+        def long_put(self) -> float:
 
-    if strike < current:
-        return option_price
-    else:
-        return current - strike + option_price
+            if self._strike > self._current:
+                return self._strike - self._current - self._option_price
+            else:
+                return -self._option_price
+
+        @property
+        def short_call(self) -> float:
+
+            if self._strike > self._current:
+                return self._option_price
+            else:
+                return self._strike - self._current + self._option_price
+
+        @property
+        def short_put(self) -> float:
+
+            if self._strike < self._current:
+                return self._option_price
+            else:
+                return self._current - self._strike + self._option_price
