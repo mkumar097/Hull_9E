@@ -1,5 +1,20 @@
-
 class Options:
+    """This is a class structure that computes the different option values
+    for a long and short call/put.
+    By defining 'current', 'strike' and 'option_price' the class will
+    calculate the possible values for all the different options.
+    ----------
+    current: float
+        Current stock price.
+    strike: float
+        Price at which to either buy or sell the stock.
+    option_price: float
+        Upfront cost of purchasing the option to either buy or sell a stock.
+
+    >>> generic_stock = Options(1.0, 1.5, 0.5)
+    >>> print(generic_stock.long_call)
+    >>> print(generic_stock.long_put)
+    """
 
     def __init__(self, current: float = None, strike: float = None,
                  option_price: float = None):
