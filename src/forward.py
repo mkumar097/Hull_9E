@@ -1,35 +1,74 @@
 import math
 
 
-def forward_contract_payoff(delivery_price: float = None,
-                            spot_price: float = None,
-                            short: bool = False) -> float:
+class Forwards:
 
-    if short:
-        return delivery_price - spot_price
-    else:
-        return spot_price - delivery_price
+    def __init__(self, delivery_price: float = None, spot_price: float = None,
+                 short: bool = False, risk_free_rate: float = None,
+                 current_price: float = None, time_to_maturity: float = None,
+                 known_income: float = 0.0, known_yield: float = None):
 
+        self._delivery_price = delivery_price
+        self._spot_price = spot_price
+        self._short = short
+        self._risk_free_rate = risk_free_rate
+        self._current_price = current_price
+        self._time_to_maturity = time_to_maturity
+        self._known_income = known_income
+        self._known_yield = known_yield
 
-def forward_price(risk_free_rate: float = None,
-                  current_price: float = None,
-                  time_to_maturity: float = None,
-                  known_income: float = 0.0,
-                  known_yield: float = 0.0) -> float:
+    @property
+    def delivery_price(self):
+        return self._delivery_price
 
-    return (current_price - known_income) * math.exp((risk_free_rate -
-                                                      known_yield) *
-                                                     time_to_maturity)
+    @property
+    def spot_price(self):
+        return self._spot_price
 
+    @property
+    def short(self):
+        return self._short
 
-def forward_value(delivery_price: float = None,
-                  spot_price: float = None,
-                  risk_free_rate: float = None,
-                  time_to_maturity: float = None,
-                  known_income: float = 0.0,
-                  known_yield: float = 0.0) -> float:
+    @property
+    def risk_free_rate(self):
+        return self._risk_free_rate
 
-    x = spot_price * math.exp(-known_yield * time_to_maturity)
-    y = delivery_price * math.exp(-risk_free_rate * time_to_maturity)
+    @property
+    def current_price(self):
+        return self._current_price
 
-    return x - known_income - y
+    @property
+    def time_to_maturity(self):
+        return self._time_to_maturity
+
+    @property
+    def known_income(self):
+        return self._known_income
+
+    @property
+    def known_yield(self):
+        return self._known_yield
+
+    @property
+    def forward_contract_payoff(self) -> float:
+        if self._short:
+            return self._delivery_price - self._spot_price
+        else:
+            return self._spot_price - self._delivery_price
+
+    @property
+    def forward_price(self) -> float:
+
+        return (self._current_price - self._known_income) * \
+               math.exp((self._risk_free_rate - self._known_yield) *
+                        self._time_to_maturity)
+
+    @property
+    def forward_value(self) -> float:
+
+        x = self._spot_price * math.exp(-self._known_yield *
+                                        self._time_to_maturity)
+        y = self._delivery_price * math.exp(-self._risk_free_rate *
+                                            self._time_to_maturity)
+
+        return x - self._known_income - y
