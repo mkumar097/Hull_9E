@@ -2,6 +2,25 @@ import math
 
 
 class Forwards:
+    """This is a class structure that computes the forward value/payoff/price.
+        ----------
+        delivery_price: float
+            Price of the forward at delivery.
+        spot_price: float
+            Price of purchasing the forward at the current time.
+        short: bool
+            Boolean value that is set to either true or false if someone
+            wants to short the forward.
+        risk_free_rate: float
+
+        current_price: float
+        
+        time_to_maturity: float
+
+        known_income: float
+
+        known_yield: float
+        """
 
     def __init__(self, delivery_price: float = None, spot_price: float = None,
                  short: bool = False, risk_free_rate: float = None,
