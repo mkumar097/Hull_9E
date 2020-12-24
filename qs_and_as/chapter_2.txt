@@ -1,0 +1,146 @@
+Chapter 2 - Mechanics of Futures Markets
+
+2.1 Distinguish between the terms open interest and trading volume.
+
+Volume is the number of contracts being exchanged. Open interest is the total
+number of outstanding contacts.
+
+2.2 What is the difference between a local and commission broker?
+
+Commission brokers follow instructions from a client, whereas a local broker
+executes trades on their own behalf.
+
+2.3 Suppose that you enter into a short futures contract to sell July Silver
+for $10.20 per ounce on the New York Commodity Exchange. The size of the
+contract is 5,000 ounces. The initial margin is $4,000, and the maintenance
+margin is $3,000. What change in the futures price will lead to a margin call?
+What happens if you do not meet the margin call?
+
+A future price of $10.40 will lead to a margin call. If you don't increase the
+margin value back to the initial margin, the future position will be closed.
+
+2.4 Suppose that in September 2009 a company takes a long position in a
+contract on May 2010 crude oil futures. It closes out its position in March
+2010. The futures price (per barrel) is $68.30 when it enters into the
+contract, $70.50 when it closes out its position, and $69.10 at the end of
+December 2009. Once contract is for the deliver of 1,000 barrels. What is the
+company's total profit? When is it realized? How is it taxed if it is (a) a
+hedger and (b) a speculator? Assume that the company has a December 31 year-end.
+
+Total profit is 1,000 * (70.50-68.30) = 2,200
+a) The full $2,200 is taxed in 2010.
+b) In 2009: 1,000 * (69.10-68.30) = 800
+In 2010: 1,000 * (70.50-69.10) = 1,400
+
+2.5 What does a stop order to sell at $2 mean? When might it be used? What does
+a limit order to sell at $2 mean? When might it be used?
+
+A stop order means that when the stock price goes below $2 a market order is
+placed to sell the stock. A limit order to sell means that the minimum price
+the trader is willing to sell their stock is $2. This order is used when the
+trader wishes to sell for a specific price or above.
+
+2.6 What is the difference between the operation of the margin account
+administered by a clearinghouse and those administered by a broker?
+
+Clearinghouse has no maintenance margin.
+
+2.7 What differences exist in the way prices are quoted in the foreign exchange
+futures market, the foreign exchange spot market, and the foreign exchange
+forward market?
+
+All foreign exchange prices is quoted in USD, or as the number of USD per unit
+of foreign currency.
+
+2.8 The party with a short position in a futures contract sometimes has options
+as to the precise asset that will be delivered, where delivery will takes
+place, when deliver will take place, and so on. Do these options increase or
+decrease the futures price? Explain your reasoning.
+
+Beneficial to the part with the short position, therefore, reducing the options
+price.
+
+2.9 What are the most important aspects of the design of a new futures contract?
+
+Asset, contract size, delivery arrangements, delivery months, price quotes,
+price limits and position limits.
+
+2.10 Explain how margins protect investors against the possibility of default.
+
+Margins ensure that both parties have sufficient funds. If they can't honor the
+margin then the future is closed.
+
+2.11 A trader buys two July futures contracts on orange juice. Each contract is
+for the delivery of 15,000 pounds. The current futures price is 160 cents per
+pound, the initial margin is $6,000 per contract, and the maintenance margin
+is $4,500 per contract. What price change would lead to a margin call? Under
+what circumstance could $2,000 be withdrawn from the margin account?
+
+A futures price less than 150 cents will trigger a margin call. A price
+increase of 6 2/3 cents will trigger a withdrawal from the margin account.
+
+2.12 Show that, if the futures price of a commodity is greater than the spot
+price during the delivery period, then there is an arbitrage opportunity. Does
+an arbitrage opportunity exist if the futures price is less than the spot
+price? Explain your answer.
+
+If the futures price is greater than the spot, sell the contract, buy at spot
+price, and deliver asset at future price. Investor can enter a long call on a
+future contract.
+
+2.13 Explain the difference between a market-if-touched order and a stop order.
+
+Stop sell order is to stop loss if the asset price is falling, stop buy order
+is to stop loss if you are shorting and asset price is rising.
+Market-if-touched order is a profit taker order if you are short and asset
+price is falling.
+
+2.14 Explain what a stop-limit order to sell at 20.30 with a limit of 20.10 means.
+
+If the price of the asset falls to 20.30 or below, sell the asset, but for a
+minimum price of 20.10.
+
+2.15 At the end of one day a clearinghouse member is long 100 contracts, and
+the settlement price is $50,000 per contract. The original margin is $2,000 per
+contract. On the following day the member becomes responsible for clearing an
+additional 20 long contracts, entered into at a price of $51,000 per contract.
+The settlement price at the end of this day is $50,200. How much does the
+member have to add to its margin account with the exchange clearinghouse?
+
+Original margin requirement = 100 * $2,000 = $200,000
+Additional margin for additional contracts = 20 * $2,000 = $40,000
+Gain in original 100 contract value = 100 * $200 = $20,000
+Loss in new 20 contract value = 20 * $800 = $16,000
+40,000 - 20,000 + 16,000 = 36,000 need to be added to meet margin requirement
+
+2.16 On July 1, 2009, a Japanese company enters into a forward contract to buy
+$1 million on January 1, 2010. On September 1, 2009, it enters into a forward
+contract to sell $1 million on January 1, 2010. Describe the profit or loss
+the company will make in yen as a function of the forward exchange rates on
+July 1, 2009, and September 1, 2009.
+
+If July 1, 2009 forward exchange rate is more favorable than the September
+1, 2009 forward exchange rate, the company will profit: 1,000,000 * (E2-E1).
+If it is less favorable, they will lose 1,000,000 * (E1-E2). Keep in mind
+forward FX rates for Yen will be quoted in Yen per USD.
+
+2.17 The forward price of the Swiss franc for delivery in 45 days is quoted as
+1.2500. The futures price for a contract that will be delivered in 45 days is
+0.7980. Explain these two quotes. Which is more favorable for an investor
+wanting to sell Swiss Francs?
+
+Forward price is in Swiss Franc per USD. The futures price is in USD per Swiss
+Franc. To compare them we can convert the forward price to USD per Swiss Franc
+as 1/1.25 = 0.8. Therefore the forward price is more attractive to a investor
+wanting to sell Swiss Francs.
+
+2.18 Suppose you call your broker and issue instructions to sell one July hogs
+contract. Describe what happens.
+
+
+
+
+
+
+
+
