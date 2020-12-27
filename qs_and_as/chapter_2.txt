@@ -134,8 +134,6 @@ Franc. To compare them we can convert the forward price to USD per Swiss Franc
 as 1/1.25 = 0.8. Therefore the forward price is more attractive to a investor
 wanting to sell Swiss Francs.
 
-2.18 Suppose you call your broker and issue instructions to sell one July hogs
-contract. Describe what happens.
 
 
 
